@@ -1,0 +1,63 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+#nav-footer ul{
+  padding-left: 5px;
+}
+
+#nav-footer a {
+  color: black;
+}
+
+#nav-footer li {
+  list-style-type: none;
+  float: left;
+  padding: 5px;
+}
+
+.navigation-header {
+  padding-top: 45px;
+}
+
+.intro-paragraph {
+  padding-top: 70px;
+}
+
+.navbar-brand {
+  color: black;
+  font-size: larger;
+}
+
+.school-link {
+  color: #DA2EFF;
+}
+
+.work-link {
+  color: #932AE8;
+}
+
+.projects-link {
+  color: #713BFF;
+}
+
+.goodies-link {
+  color: #2B2AE8;
+}
+
+.resume-link {
+  color: #2E64FF;
+}
+
+.work-img {
+  width: 150px;
+  height: 150px;
+}
+
+@media (max-width: 768px) {
+    .intro-paragraph {
+        padding-top: 20px;
+    }
+}
